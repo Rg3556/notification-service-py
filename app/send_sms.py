@@ -32,7 +32,7 @@ message = client.messages.create(to=RECIPIENT_SMS, from_=SENDER_SMS, body=conten
 # PARSE RESPONSE
 
 pp = pprint.PrettyPrinter(indent=4)
-
+breakpoint() 
 print("----------------------")
 print("SMS")
 print("----------------------")
